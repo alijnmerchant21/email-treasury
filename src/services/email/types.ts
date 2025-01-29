@@ -1,3 +1,4 @@
+// src/services/email/types.ts
 export interface EmailRequest {
     id: string;
     from: string;
@@ -7,5 +8,8 @@ export interface EmailRequest {
     timestamp: Date;
 }
 
-// Define core email request interfaces and types
-
+export interface SendTokenInput {
+    recipient: string;
+    amount: number;
+    keyId: number;
+}
