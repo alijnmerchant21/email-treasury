@@ -4,3 +4,6 @@ package.json
 credentials.json
 .env
 tsconfig.json
+.DS_Store
+src/.DS_Store
+src/services/.DS_Store
